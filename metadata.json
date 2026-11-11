@@ -1,0 +1,8 @@
+{
+  "name": "Remix 빼빼로 데이 X 제니스티 심리테스트",
+  "description": "내가 가장 끌리는 빼빼로를 고르고 나의 성격 심리와 찰떡궁합 제니스티(JennisTea) 페어링을 확인해보세요!",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

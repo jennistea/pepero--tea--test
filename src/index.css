@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #F5EEFD;
+  --card-bg: #FFFFFF;
+  --primary: #581C87;
+  --primary-hover: #4A148C;
+  --secondary: #7E22CE;
+  --text-main: #2D2424;
+  --accent: #9333EA;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3D Card Flip styles */
+.perspective-1000 {
+  perspective: 1200px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Custom scrollbar for pairing catalog and modal */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #EEDFFC;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4A5EE;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9D6CD8;
+}
